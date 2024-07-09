@@ -4,7 +4,6 @@ import Die from './Die.js'
 import React from 'react'
 import { nanoid } from 'nanoid'
 import Confetti from 'react-confetti'
-import Dice from './ExampleDie.js'
 
 // example
 import Dice1 from './images/Dice1.png'

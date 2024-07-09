@@ -6,6 +6,7 @@ function Dice(props){
              onClick={() => props.showId(props.id)}> 
              <img src={props.pict} 
              key={props.id} 
+             alt='love'
              /> 
              </div>
         </div>

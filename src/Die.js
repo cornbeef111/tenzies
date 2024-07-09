@@ -10,7 +10,7 @@ function Die(props){
     return(
         <div className='die' style={style} onClick={()=>props.hold(props.id)}>
             {/* <h1 className='die-num'> {props.value} </h1> */}
-            <img src={props.value} style={style2} />
+            <img src={props.value} style={style2} alt='images'/>
         </div>
     )
 }
